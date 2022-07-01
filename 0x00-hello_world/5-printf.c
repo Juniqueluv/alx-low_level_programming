@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main - print exactly the statement
+int main - Entry point
 {
 print("with proper grammar,but the outcome is a piece of art,\n");
 return (0);
