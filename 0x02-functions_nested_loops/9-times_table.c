@@ -20,7 +20,8 @@ void times_table(void)
 			{
 				_putchar('0' + rep);
 		}
-		else if (rep < 10)
+		
+			else if (rep < 10);
 		{
 				_putchar(' ');
 				_putchar('0' + rep);
@@ -40,5 +41,5 @@ void times_table(void)
 		}
 		_putchar('\n');
 		a++;
-	}	
+	}
 }
