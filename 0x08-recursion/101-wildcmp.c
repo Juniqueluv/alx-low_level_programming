@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* wild-cmp - Compares two strings.
+* wildcmp - Compares two strings.
 * @s1: 1st string to be compared
 * @s2: second string containing '*' or not.
 * Return: If the strings are considered to be indentical - 1
@@ -9,7 +9,7 @@
 */
 int wildcmp(char *s1, char *s2);
 {
-	if (*s2 == '*' && *(s2 + 1) != '\0' && *s1 == '\0')
+	if ('*s2' == '*' && *(s2 + 1) != '\0' && *s1 == '\0')
 		return (0);
 	if (*s1 == '\0' && *s2 == '\0')
 		return (1);
