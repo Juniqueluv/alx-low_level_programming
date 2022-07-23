@@ -1,2 +1,1 @@
-0- This is static library project
-
+0x09. C - Static libraries
