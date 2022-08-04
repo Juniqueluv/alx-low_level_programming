@@ -1,3 +1,3 @@
- C - Function pointers project
+C - Function pointers project
 
 
