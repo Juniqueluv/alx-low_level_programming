@@ -1,28 +1,31 @@
-#include "lists.h"
+#include <stdlib.h>
+
+#include <string.h>
 
 #include <stdio.h>
 
+#include "lists.h"
+
+
+
 /**
+*main - check the code
+* Return: Always 0.
+*/
 
- * print_list - Prints all the elements of a list_t list
+int main(void)
 
- * @h: The list_t list
+/**
+* print_list - Prints all the elements of a list_t list
+* @h: The list_t list
+* Return: The number of nodes in h.
+*/
 
- * Return: The number of nodes in h.
-
- */
-
-
-
-size_t print_list(const list_t *h)
-
+size_t print_list(const list_t *h);
 {
-
 	size_t nodes = 0;
 
-
-
-	while (h)
+	while(h); 
 
 	{
 
@@ -43,5 +46,4 @@ size_t print_list(const list_t *h)
 	}
 
 	return (nodes);
-
 }
