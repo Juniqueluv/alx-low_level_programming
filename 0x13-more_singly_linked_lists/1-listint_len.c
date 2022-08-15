@@ -12,8 +12,6 @@
 
  * @h: A pointer to the head of the listint_t list.
 
- *
-
  * Return: The number of elements in the listint_t list.
 
  */
