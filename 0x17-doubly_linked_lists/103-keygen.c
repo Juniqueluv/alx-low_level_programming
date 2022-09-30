@@ -30,7 +30,7 @@ int main(int __attribute__((unused)) argc, char *argv[])
 	password[2] = codex[(tmp ^ 85) & 63];
 
 	tmp = 0;
-	for ( i = 0; i < len; i++)
+	for (i = 0; i < len; i++)
 	{
 		if (argv[1][i] > tmp)
 			tmp = argv[1][i];
